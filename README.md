@@ -18,7 +18,7 @@ The goal is to provide an integrated workflow from design to simulation to 3D pr
 
 **Technologies Used**
 
-- **CAD Software:** Fusion 360
+- **CAD Software:** Fusion 360, SolidWorks
 
 - **FEA Software:** ANSYS Workbench
 
@@ -26,9 +26,27 @@ The goal is to provide an integrated workflow from design to simulation to 3D pr
 
 - **Materials & Tools:** PLA/Resin (depending on printer), slicing software for print optimization
 
-Acetabular-Joint/
+## Acetabular-Joint
+
 ├── CAD_Files/           # .f3d, .step, or .iges files
+
 ├── FEA_Results/         # ANSYS simulations and reports
+
 ├── 3D_Prints/           # Photos, print settings, slicing snapshots
+
 ├── README.md            # Project description
+
 └── Documentation/       # Notes, design decisions, references
+
+**Applications**
+
+- Biomedical Engineering: Hip implant design and performance optimization
+- Orthopedics: Study of stress distribution and implant stability
+- Rapid Prototyping: Evaluation of additive manufacturing efficiency
+- Education & Research: Visualization and analysis of joint mechanics
+
+**Key Findings**
+- Frictional contact models in FEA produce more localized stress than bonded contacts.
+- Contact friction significantly influences deformation and strain distribution.
+- Bambu Lab printer achieved ~25% faster print times compared to Ultimaker 3 without compromising surface quality.
+- Fusion 360’s preliminary stress estimates correlate strongly with ANSYS detailed simulations.
